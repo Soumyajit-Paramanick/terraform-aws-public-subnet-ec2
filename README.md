@@ -9,7 +9,7 @@ The architecture includes a **custom VPC**, **public subnet**, **internet gatewa
 
 ## 🧱 Architecture Diagram
 
-![Architecture Diagram](./terraform_aws_architecture.svg)
+![Architecture Diagram](./terraform_aws_architecture.jpg)
 
 ---
 
