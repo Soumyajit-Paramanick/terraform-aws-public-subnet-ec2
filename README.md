@@ -9,7 +9,11 @@ The architecture includes a **custom VPC**, **public subnet**, **internet gatewa
 
 ## 🧱 Architecture Diagram
 
-![Architecture Diagram](./terraform_aws_architecture.jpg)
+<p align="center">
+  <img src="./terraform_aws_architecture.jpg" alt="Terraform AWS Architecture" width="800"/>
+  <br/>
+  <em>Figure: Terraform AWS Public Subnet EC2 Architecture</em>
+</p>
 
 ---
 
