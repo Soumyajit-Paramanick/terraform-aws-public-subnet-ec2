@@ -10,7 +10,7 @@ The architecture includes a **custom VPC**, **public subnet**, **internet gatewa
 ## 🧱 Architecture Diagram
 
 <p align="center">
-  <img src="./terraform_aws_architecture.jpg" alt="Terraform AWS Architecture" width="800"/>
+  <img src="./images/terraform_aws_architecture.jpg" alt="Terraform AWS Architecture" width="800"/>
   <br/>
   <em>Figure: Terraform AWS Public Subnet EC2 Architecture</em>
 </p>
@@ -50,6 +50,39 @@ Public Subnet (10.0.1.0/24)
 ↓
 EC2 Instance
 ```
+---
+
+## 📸 Implementation Screenshots
+
+### 🔹 Code Setup
+<p align="center">
+  <img src="./images/code_setup.png" width="700"/>
+</p>
+
+### 🔹 VPC Created
+<p align="center">
+  <img src="./images/vpc_created.png" width="700"/>
+</p>
+
+### 🔹 Subnet Created
+<p align="center">
+  <img src="./images/subnet_created.png" width="700"/>
+</p>
+
+### 🔹 Internet Gateway Created
+<p align="center">
+  <img src="./images/internet_gateway_created.png" width="700"/>
+</p>
+
+### 🔹 Route Table Created
+<p align="center">
+  <img src="./images/route_table_created.png" width="700"/>
+</p>
+
+### 🔹 EC2 Instance Running
+<p align="center">
+  <img src="./images/terraform_ec2_instance_running.png" width="700"/>
+</p>
 
 ---
 
@@ -63,6 +96,7 @@ EC2 Instance
 
 ## 📂 Project Structure
 
+
 ```
 terraform-aws-public-subnet-ec2/
 │
@@ -70,7 +104,14 @@ terraform-aws-public-subnet-ec2/
 ├── variables.tf
 ├── outputs.tf
 ├── backend.tf
-├── terraform_aws_architecture.svg
+├── images/
+│ ├── terraform_aws_architecture.jpg
+│ ├── code_setup.png
+│ ├── vpc_created.png
+│ ├── subnet_created.png
+│ ├── internet_gateway_created.png
+│ ├── route_table_created.png
+│ └── terraform_ec2_instance_running.png
 └── README.md
 ```
 
