@@ -1,6 +1,6 @@
 # 🚀 Terraform AWS Public Subnet EC2 Project
 
-## 📌 Overview
+## 📌 Overview 
 This project demonstrates how to use **Terraform (Infrastructure as Code)** to provision a complete AWS infrastructure from scratch.
 
 The architecture includes a **custom VPC**, **public subnet**, **internet gateway**, **route table**, **security group**, and an **EC2 instance** deployed in AWS.
